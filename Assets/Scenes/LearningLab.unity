@@ -266,6 +266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ResetLearningLab
   cube: {fileID: 911287175}
+  startingHeight: 6
 --- !u!4 &314832205
 Transform:
   m_ObjectHideFlags: 0
@@ -571,7 +572,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 757019310}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b3184125d2d763644a4934d1f8e8e655, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -836,7 +837,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 911287170}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b3184125d2d763644a4934d1f8e8e655, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
