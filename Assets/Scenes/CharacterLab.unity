@@ -759,6 +759,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5105146846691903342, guid: 1fdf8a02c4a4a884ca74d5ca8223c591, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2e2f291e964c2004783cb9c3f43d662b, type: 2}
+    - target: {fileID: -2213784170876328982, guid: 1fdf8a02c4a4a884ca74d5ca8223c591, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e55c25000035b5749bcab32ad3ca1a9d, type: 2}
+    - target: {fileID: -708264848027985069, guid: 1fdf8a02c4a4a884ca74d5ca8223c591, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: eb782dae929c934449597254eceae967, type: 2}
+    - target: {fileID: -477360414885753668, guid: 1fdf8a02c4a4a884ca74d5ca8223c591, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -7546776325730914620, guid: ea5deb112019adb4d83ba08cd680d11c, type: 3}
     - target: {fileID: 919132149155446097, guid: 1fdf8a02c4a4a884ca74d5ca8223c591, type: 3}
       propertyPath: m_Name
       value: MaleCharacter_Base
