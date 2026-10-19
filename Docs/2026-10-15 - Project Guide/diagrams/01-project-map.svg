@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1940" height="1430" viewBox="0 0 1940 1430"><rect width="100%" height="100%" fill="#f7f9fc"/>
+<text x="30" y="35" text-anchor="start" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#18283b">Project mind map - work and connections</text>
+<text x="30" y="70" text-anchor="start" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#18283b">Blue: scenes | Green: controls | Purple: code | Gold: rendering assets | Coral: limits / issues. Detailed flows follow.</text>
+<path d="M275,692.5 L340,175.0" stroke="#677990" stroke-width="3" fill="none"/>
+<polygon points="340,175.0 343.5129228014352,185.42398068835303 334.0182832525133,184.2314172667493" fill="#677990"/>
+<path d="M620,175.0 L710,150.0" stroke="#677990" stroke-width="3" fill="none"/>
+<polygon points="710,150.0 701.7370084100934,157.26105846176245 699.1758595745005,148.04092265362814" fill="#677990"/>
+<path d="M620,175.0 L710,270.0" stroke="#677990" stroke-width="3" fill="none"/>
+<polygon points="710,270.0 699.7145372050916,266.10009550186754 706.6613539367722,259.51890070343313" fill="#677990"/>
+<path d="M275,692.5 L340,455.0" stroke="#677990" stroke-width="3" fill="none"/>
+<polygon points="340,455.0 342.00024166671005,465.8166091394095 332.77042914915523,463.29055518723663" fill="#677990"/>
+<path d="M620,455.0 L710,415.0" stroke="#677990" stroke-width="3" fill="none"/>
+<polygon points="710,415.0 702.8919900113439,423.3950100655785 699.0055528455226,414.65052644248084" fill="#677990"/>
+<path d="M620,455.0 L710,545.0" stroke="#677990" stroke-width="3" fill="none"/>
+<polygon points="710,545.0 699.6129273598158,541.3794030923704 706.3794030923704,534.6129273598158" fill="#677990"/>
+<path d="M275,692.5 L340,810.0" stroke="#677990" stroke-width="3" fill="none"/>
+<polygon points="340,810.0 331.01870546613526,803.6489096608558 339.39211775790164,799.0168092441339" fill="#677990"/>
+<path d="M620,810.0 L710,705.0" stroke="#677990" stroke-width="3" fill="none"/>
+<polygon points="710,705.0 707.1867197182183,715.6341644738145 699.9212097395617,709.4065844921089" fill="#677990"/>
+<path d="M620,810.0 L710,840.0" stroke="#677990" stroke-width="3" fill="none"/>
+<polygon points="710,840.0 699.0903396348109,841.4068797803019 702.1163995760298,832.3286999566451" fill="#677990"/>
+<path d="M620,810.0 L710,975.0" stroke="#677990" stroke-width="3" fill="none"/>
+<polygon points="710,975.0 701.0566113667735,968.5956421278105 709.4574063356384,964.0133903266114" fill="#677990"/>
+<path d="M275,692.5 L340,1260.0" stroke="#677990" stroke-width="3" fill="none"/>
+<polygon points="340,1260.0 334.11934308146743,1250.7038785395996 343.62642713455745,1249.6149614233868" fill="#677990"/>
+<path d="M620,1260.0 L710,1200.0" stroke="#677990" stroke-width="3" fill="none"/>
+<polygon points="710,1200.0 704.4126400963196,1209.475305235545 699.10457981962,1201.5132148204955" fill="#677990"/>
+<path d="M620,1260.0 L710,1330.0" stroke="#677990" stroke-width="3" fill="none"/>
+<polygon points="710,1330.0 699.244057838835,1327.6957195861453 705.1190039899772,1320.1422173918197" fill="#677990"/>
+<path d="M1040,975.0 L1130,975.0" stroke="#677990" stroke-width="3" fill="none"/>
+<polygon points="1130,975.0 1120.0950818741205,979.7846208752235 1120.0950818741205,970.2153791247765" fill="#677990"/>
+<text x="1085.0" y="961.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="15" font-weight="400" fill="#18283b">click</text>
+<path d="M1480,975.0 L1580,720.0" stroke="#677990" stroke-width="3" fill="none"/>
+<polygon points="1580,720.0 1580.8381917180284,730.9680187200711 1571.9294841185188,727.474407896734" fill="#677990"/>
+<path d="M1480,975.0 L1580,840.0" stroke="#677990" stroke-width="3" fill="none"/>
+<polygon points="1580,840.0 1577.9490363664977,850.8071063737733 1570.259603323071,845.1112300453091" fill="#677990"/>
+<path d="M1480,975.0 L1580,970.0" stroke="#677990" stroke-width="3" fill="none"/>
+<polygon points="1580,970.0 1570.346372419873,975.273279297004 1569.8685072908956,965.7159767174575" fill="#677990"/>
+<path d="M1480,975.0 L1580,1100.0" stroke="#677990" stroke-width="3" fill="none"/>
+<polygon points="1580,1100.0 1570.076285493859,1095.2544873405914 1577.5486079068032,1089.2766294102362" fill="#677990"/>
+<path d="M1305.0,1025 L1305.0,1160" stroke="#677990" stroke-width="3" fill="none"/>
+<polygon points="1305.0,1160 1300.2153791247765,1150.0950818741205 1309.7846208752235,1150.0950818741205" fill="#677990"/>
+<text x="1305.0" y="1078.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="15" font-weight="400" fill="#18283b">applies values</text>
+<rect x="25" y="640" width="250" height="105" rx="20" fill="#e1efff" stroke="#7b8ba0" stroke-width="2"/>
+<text x="150.0" y="680.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#18283b">Learning_and_Creating</text>
+<text x="150.0" y="705.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Unity 6.3 / URP</text>
+<rect x="340" y="125" width="280" height="100" rx="20" fill="#e1efff" stroke="#7b8ba0" stroke-width="2"/>
+<text x="480.0" y="162.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#18283b">DevMenu</text>
+<text x="480.0" y="187.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Navigation hub</text>
+<rect x="710" y="100" width="330" height="100" rx="20" fill="#eee8ff" stroke="#7b8ba0" stroke-width="2"/>
+<text x="875.0" y="137.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#18283b">SceneChanger.cs</text>
+<text x="875.0" y="162.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Button -&gt; LoadScene</text>
+<rect x="710" y="220" width="330" height="100" rx="20" fill="#e1efff" stroke="#7b8ba0" stroke-width="2"/>
+<text x="875.0" y="257.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#18283b">LearningLab / Movement</text>
+<text x="875.0" y="282.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">CharacterLab destinations</text>
+<rect x="340" y="405" width="280" height="100" rx="20" fill="#e1efff" stroke="#7b8ba0" stroke-width="2"/>
+<text x="480.0" y="442.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#18283b">LearningLab</text>
+<text x="480.0" y="467.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Physics experiments</text>
+<rect x="710" y="365" width="330" height="100" rx="20" fill="#fff0d7" stroke="#7b8ba0" stroke-width="2"/>
+<text x="875.0" y="390.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#18283b">Cube + ramp + floor</text>
+<text x="875.0" y="415.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Rigidbody / colliders</text>
+<text x="875.0" y="440.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">ZeroFriction material</text>
+<rect x="710" y="495" width="330" height="100" rx="20" fill="#ffe3dd" stroke="#7b8ba0" stroke-width="2"/>
+<text x="875.0" y="520.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#18283b">ResetLearningLab.cs</text>
+<text x="875.0" y="545.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Speed readout + reset</text>
+<text x="875.0" y="570.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Reset recursion needs repair</text>
+<rect x="340" y="760" width="280" height="100" rx="20" fill="#e1efff" stroke="#7b8ba0" stroke-width="2"/>
+<text x="480.0" y="797.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#18283b">CharacterLab</text>
+<text x="480.0" y="822.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Appearance workshop</text>
+<rect x="710" y="655" width="330" height="100" rx="20" fill="#fff0d7" stroke="#7b8ba0" stroke-width="2"/>
+<text x="875.0" y="680.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#18283b">Character model</text>
+<text x="875.0" y="705.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Body / eyes / hair</text>
+<text x="875.0" y="730.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Brows / lashes / clothing</text>
+<rect x="710" y="790" width="330" height="100" rx="20" fill="#fff0d7" stroke="#7b8ba0" stroke-width="2"/>
+<text x="875.0" y="815.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#18283b">Five material assets</text>
+<text x="875.0" y="840.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Three shader graphs</text>
+<text x="875.0" y="865.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Neutral textures + masks</text>
+<rect x="710" y="925" width="330" height="100" rx="20" fill="#dff5eb" stroke="#7b8ba0" stroke-width="2"/>
+<text x="875.0" y="950.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#18283b">Six Choose Color buttons</text>
+<text x="875.0" y="975.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Skin / lips / eyes / hair</text>
+<text x="875.0" y="1000.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Eyebrows / eyelashes</text>
+<rect x="340" y="1210" width="280" height="100" rx="20" fill="#eee8ff" stroke="#7b8ba0" stroke-width="2"/>
+<text x="480.0" y="1247.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#18283b">Editor setup tools</text>
+<text x="480.0" y="1272.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Build and wire the scene</text>
+<rect x="710" y="1150" width="330" height="100" rx="20" fill="#eee8ff" stroke="#7b8ba0" stroke-width="2"/>
+<text x="875.0" y="1175.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#18283b">Facial hair + row setup</text>
+<text x="875.0" y="1200.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">RGB / hex / visual setup</text>
+<text x="875.0" y="1225.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Assets/Editor scripts</text>
+<rect x="710" y="1280" width="330" height="100" rx="20" fill="#ffe3dd" stroke="#7b8ba0" stroke-width="2"/>
+<text x="875.0" y="1305.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#18283b">Verified / still to check</text>
+<text x="875.0" y="1330.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Play Mode reports</text>
+<text x="875.0" y="1355.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">No appearance save/load yet</text>
+<rect x="1130" y="925" width="350" height="100" rx="20" fill="#eee8ff" stroke="#7b8ba0" stroke-width="2"/>
+<text x="1305.0" y="950.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#18283b">CharacterColorPicker.cs</text>
+<text x="1305.0" y="975.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Selected part + shared update</text>
+<text x="1305.0" y="1000.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Temporary material copies</text>
+<rect x="1580" y="680" width="320" height="80" rx="20" fill="#dff5eb" stroke="#7b8ba0" stroke-width="2"/>
+<text x="1740.0" y="707.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#18283b">RGB bars</text>
+<text x="1740.0" y="732.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">onValueChanged -&gt; ApplyColor</text>
+<rect x="1580" y="800" width="320" height="80" rx="20" fill="#dff5eb" stroke="#7b8ba0" stroke-width="2"/>
+<text x="1740.0" y="827.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#18283b">Hex field</text>
+<text x="1740.0" y="852.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">onEndEdit -&gt; ApplyHex</text>
+<rect x="1580" y="920" width="320" height="100" rx="20" fill="#dff5eb" stroke="#7b8ba0" stroke-width="2"/>
+<text x="1740.0" y="945.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#18283b">Square + rainbow strip</text>
+<text x="1740.0" y="970.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">HsvColorPicker.cs</text>
+<text x="1740.0" y="995.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">ColorPickerSurface.cs</text>
+<rect x="1580" y="1060" width="320" height="80" rx="20" fill="#dff5eb" stroke="#7b8ba0" stroke-width="2"/>
+<text x="1740.0" y="1087.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#18283b">Brightness slider</text>
+<text x="1740.0" y="1112.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Separate shader float</text>
+<rect x="1130" y="1160" width="350" height="100" rx="20" fill="#fff0d7" stroke="#7b8ba0" stroke-width="2"/>
+<text x="1305.0" y="1185.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#18283b">Renderer -&gt; material -&gt; shader</text>
+<text x="1305.0" y="1210.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Color / brightness / texture</text>
+<text x="1305.0" y="1235.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Lit character on screen</text>
+</svg>

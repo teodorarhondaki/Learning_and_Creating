@@ -1,0 +1,68 @@
+Captured 2026-10-19 while preparing documentation; not a staged-file list.
+Baseline HEAD: 212225d
+
+ M Assets/Characters/Customization/Materials/CharacterHair.mat
+ D Assets/Characters/Customization/Shaders/CharacterEyes.mat
+ D Assets/Characters/Customization/Shaders/CharacterEyes.mat.meta
+ M Assets/Characters/Customization/Shaders/CustomizableHair.shadergraph
+ D Assets/Characters/Customization/Shaders/CustumizableSkin.shadergraph
+ D Assets/Characters/Customization/Shaders/CustumizableSkin.shadergraph.meta
+ M Assets/Scenes/CharacterLab.unity
+ M "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset"
+?? Assets/Characters/Customization/Materials/CharacterEyes.mat
+?? Assets/Characters/Customization/Materials/CharacterEyes.mat.meta
+?? Assets/Characters/Customization/Materials/FemaleClothing.mat
+?? Assets/Characters/Customization/Materials/FemaleClothing.mat.meta
+?? Assets/Characters/Customization/Materials/FemaleEyebrows.mat
+?? Assets/Characters/Customization/Materials/FemaleEyebrows.mat.meta
+?? Assets/Characters/Customization/Materials/FemaleEyelashes.mat
+?? Assets/Characters/Customization/Materials/FemaleEyelashes.mat.meta
+?? Assets/Characters/Customization/Materials/FemaleEyes.mat
+?? Assets/Characters/Customization/Materials/FemaleEyes.mat.meta
+?? Assets/Characters/Customization/Materials/FemaleHair.mat
+?? Assets/Characters/Customization/Materials/FemaleHair.mat.meta
+?? Assets/Characters/Customization/Materials/FemaleSkin.mat
+?? Assets/Characters/Customization/Materials/FemaleSkin.mat.meta
+?? Assets/Characters/Customization/Shaders/CustomizableSkin.shadergraph
+?? Assets/Characters/Customization/Shaders/CustomizableSkin.shadergraph.meta
+?? Assets/Characters/Customization/Textures/FemaleHair_Neutral.png
+?? Assets/Characters/Customization/Textures/FemaleHair_Neutral.png.meta
+?? Assets/Characters/Customization/Textures/FemaleSkin_LipMask.png
+?? Assets/Characters/Customization/Textures/FemaleSkin_LipMask.png.meta
+?? Assets/Characters/Customization/Textures/FemaleSkin_TintBase.png
+?? Assets/Characters/Customization/Textures/FemaleSkin_TintBase.png.meta
+?? Assets/Editor/CaptureHairHandoff.cs
+?? Assets/Editor/CaptureHairHandoff.cs.meta
+?? Assets/Editor/CreateCustomizationRows.cs
+?? Assets/Editor/CreateCustomizationRows.cs.meta
+?? Assets/Editor/ExpandHairGallery.cs
+?? Assets/Editor/ExpandHairGallery.cs.meta
+?? Assets/Editor/FemaleMenuRuntimeCheck.cs
+?? Assets/Editor/FemaleMenuRuntimeCheck.cs.meta
+?? Assets/Editor/SetupCharacterTabs.cs
+?? Assets/Editor/SetupCharacterTabs.cs.meta
+?? Assets/Editor/SetupColorPicker.cs
+?? Assets/Editor/SetupColorPicker.cs.meta
+?? Assets/Editor/SetupFemaleMaterials.cs
+?? Assets/Editor/SetupFemaleMaterials.cs.meta
+?? Assets/Editor/SetupFemaleMenu.cs
+?? Assets/Editor/SetupFemaleMenu.cs.meta
+?? Assets/Editor/SetupFemaleReview.cs
+?? Assets/Editor/SetupFemaleReview.cs.meta
+?? Assets/Editor/SetupHexPicker.cs
+?? Assets/Editor/SetupHexPicker.cs.meta
+?? Assets/Editor/SetupVisualColorPicker.cs
+?? Assets/Editor/SetupVisualColorPicker.cs.meta
+?? Assets/Prefabs/FemaleCharacter.prefab
+?? Assets/Prefabs/FemaleCharacter.prefab.meta
+?? Assets/Scenes/FemaleCharacterReview.unity
+?? Assets/Scenes/FemaleCharacterReview.unity.meta
+?? Assets/Scripts/CharacterColorPicker.cs
+?? Assets/Scripts/CharacterColorPicker.cs.meta
+?? Assets/Scripts/CharacterSetupMenu.cs
+?? Assets/Scripts/CharacterSetupMenu.cs.meta
+?? Assets/Scripts/ColorPickerSurface.cs
+?? Assets/Scripts/ColorPickerSurface.cs.meta
+?? Assets/Scripts/HsvColorPicker.cs
+?? Assets/Scripts/HsvColorPicker.cs.meta
+?? Docs/

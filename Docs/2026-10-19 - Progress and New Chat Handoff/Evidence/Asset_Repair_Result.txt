@@ -1,0 +1,10 @@
+PASS: moved assets with original GUIDs.
+Skin shader: Shader Graphs/CustomizableSkin
+CharacterSkin -> Shader Graphs/CustomizableSkin
+FemaleSkin -> Shader Graphs/CustomizableSkin
+CharacterEyes -> Shader Graphs/CustomizableEyes
+FemaleEyes -> Shader Graphs/CustomizableEyes
+Loaded renderer eye references: 1
+Dependent asset: Assets/Prefabs/FemaleCharacter.prefab
+Dependent asset: Assets/Scenes/CharacterLab.unity
+Dependent asset: Assets/Scenes/FemaleCharacterReview.unity

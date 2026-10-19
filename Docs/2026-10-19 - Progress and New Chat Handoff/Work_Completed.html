@@ -1,0 +1,108 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Character customization progress</title><style>body{max-width:1000px;margin:40px auto;padding:24px;font:17px/1.65 system-ui;color:#203047}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:8px}pre{white-space:pre-wrap;background:#edf2f6;padding:16px}code{overflow-wrap:anywhere}</style><h1>Project progress — character customization milestone</h1>
+<p>Date: 2026-10-19. Baseline: commit <code>212225d</code>, <strong>Add customizable skin, lips, hair, eyebrows and eyelashes</strong> (2026-10-13). This report covers the working-tree changes after that commit. The new commit has not been created by this documentation task.</p>
+<h2>What was already in the previous commit</h2>
+<p>The learning project already contained CharacterLab, the male character, customizable skin/lips/eyes/hair/facial-hair materials and shader graphs. This milestone extends that foundation; it does not claim that all those original assets were newly created here.</p>
+<h2>Work completed since the baseline</h2>
+<h3>In-game color customization</h3>
+<p>CharacterLab now has six visible color targets: Skin, Lips, Eyes, Hair, Eyebrows and Eyelashes. Each button opens a shared picker and displays its selected color. RGB sliders, a six-digit hex field and a visual HSV square/hue strip edit the same color. Invalid hex input produces an error rather than applying a bad value. A separate brightness multiplier is available when supported by the material; eyes have no brightness property.</p>
+<p>The hair shader gained a Texture Exponent control to lighten its neutral detail texture before tinting. The male hair material uses 0.15. This reduces the overly dark result from multiplying the selected color by the original dark texture. Lighting, texture detail and shading still mean the rendered surface is not a flat UI swatch.</p>
+<h3>Female character support</h3>
+<p>The existing female FBX was inspected and its body, eyes, hair, brows, lashes and clothing matched to source assets. Added separate FemaleSkin, FemaleEyes, FemaleHair, FemaleEyebrows, FemaleEyelashes and FemaleClothing materials, plus female neutral skin, lip-mask and hair textures. Shared URP shader graphs are reused. Added a FemaleCharacter prefab and FemaleCharacterReview scene, then integrated the female into CharacterLab with matching facing/alignment.</p>
+<p>Male and female colors remain independent during the scene session. Runtime copies protect the saved source materials. Skin and lips intentionally share one copied skin material with separate properties.</p>
+<h3>Character tab and hairstyle gallery</h3>
+<p>The menu now has Character and Colors tabs. Character contains a name field, Male/Female choices, portrait placeholders and a scrolling hair gallery. The name field supports Unicode and has a 40-character scene limit. Tab/profile changes close the picker so its previous target is not accidentally edited.</p>
+<p>There are twelve configured hair entries: six for each character. Only the original male short hair and female ponytail currently have models. The other ten are disabled placeholders. Each future choice is one complete preset (one model and picture), not separate length/wave/curl switches. The gallery uses a clipped viewport and vertical scrolling. Selection is retained separately per character during the session.</p>
+<p>The production brief gives the twelve finished preset names and designs. The current scene still uses generic slot labels such as Short, Wavy and Curly. Those labels must not be mistaken for completed assets or combinable settings.</p>
+<h3>Asset organization repairs</h3>
+<p>Moved CharacterEyes.mat from Shaders into Materials. Renamed the skin graph to CustomizableSkin.shadergraph. Unity moved both assets with their original GUIDs; existing scene, prefab and material assignments stayed connected. Updated SetupFemaleMaterials, the project guide and its generator. No C# methods or variables had the misspelling.</p>
+<h3>Documentation and friend handoff</h3>
+<p>Added a detailed project guide in Markdown/HTML with nine dependency diagrams and code explanations, a hairstyle production brief, and an asset-repair report. Organized documents into dated theme folders with a browser index. Created the external hairstyle handoff ZIP containing the brief in Markdown/HTML, six reference views and three menu screenshots. It contains no Blender/FBX models and no finished new hair assets.</p>
+<h2>Runtime connections</h2>
+<pre><code class="language-text">DevMenu -&gt; SceneChanger.ChangeScene() -&gt; CharacterLab
+Character tab -&gt; CharacterSetupMenu -&gt; name / profile / complete hair preset
+Colors tab -&gt; six buttons -&gt; CharacterColorPicker.Open(index)
+  RGB sliders ---------------------&gt; ApplyColor()
+  Hex field -&gt; ApplyHex() ----------&gt; ApplyPickedColor() -&gt; ApplyColor()
+  Pointer/drag -&gt; ColorPickerSurface -&gt; HsvColorPicker -&gt; ApplyPickedColor()
+ApplyColor() -&gt; runtime material property -&gt; shader -&gt; character renderer
+             -&gt; button swatch / preview / hex / HSV markers
+Brightness -&gt; ApplyBrightness() -&gt; separate material float
+Scene teardown -&gt; restore original renderer materials / destroy runtime copies
+</code></pre>
+<p><code>SetValueWithoutNotify</code>, <code>SetTextWithoutNotify</code> and the HSV applying guard avoid recursive updates when one control refreshes the others. Buttons are registered in Awake/Start. Both character material profiles are initialized in Awake, not lazily when the menu opens. The HSV textures are created when first needed. Closing a panel hides it; it does not unload the character or destroy every menu object.</p>
+<h2>Files and responsibilities</h2>
+<table>
+<thead>
+<tr>
+<th>File/group</th>
+<th>Responsibility</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Assets/Scripts/CharacterColorPicker.cs</td>
+<td>Button bindings, RGB/hex synchronization, brightness, profiles and material ownership</td>
+</tr>
+<tr>
+<td>Assets/Scripts/HsvColorPicker.cs</td>
+<td>Hue/saturation/value state, generated picker textures and markers</td>
+</tr>
+<tr>
+<td>Assets/Scripts/ColorPickerSurface.cs</td>
+<td>Pointer/drag coordinates converted into picker values</td>
+</tr>
+<tr>
+<td>Assets/Scripts/CharacterSetupMenu.cs</td>
+<td>Tabs, name, profile cards and complete hairstyle selections</td>
+</tr>
+<tr>
+<td>Assets/Scenes/CharacterLab.unity</td>
+<td>UI hierarchy, serialized references, both character instances and gallery configuration</td>
+</tr>
+<tr>
+<td>Assets/Prefabs/FemaleCharacter.prefab</td>
+<td>Female model with URP material assignments</td>
+</tr>
+<tr>
+<td>Assets/Scenes/FemaleCharacterReview.unity</td>
+<td>Isolated female review scene</td>
+</tr>
+<tr>
+<td>Assets/Characters/Customization/Materials</td>
+<td>Male/female customization materials, including relocated CharacterEyes</td>
+</tr>
+<tr>
+<td>Assets/Characters/Customization/Shaders</td>
+<td>CustomizableSkin, CustomizableEyes and CustomizableHair graphs</td>
+</tr>
+<tr>
+<td>Assets/Editor/Setup*.cs, CreateCustomizationRows.cs, ExpandHairGallery.cs</td>
+<td>One-time/editor construction and migration helpers, not runtime menu code</td>
+</tr>
+<tr>
+<td>Assets/Editor/FemaleMenuRuntimeCheck.cs</td>
+<td>Automated editor Play Mode checks; explicit invocation can exit Unity</td>
+</tr>
+<tr>
+<td>Assets/Editor/CaptureHairHandoff.cs</td>
+<td>Reference-image capture helper; opens scene and changes it in memory, uses a local output path</td>
+</tr>
+</tbody>
+</table>
+<p>The TextMesh Pro fallback font asset also changed during this work. Its generated font/glyph data is included in the working-tree changes; it is not a new gameplay feature.</p>
+<h2>Verification and limits</h2>
+<ul>
+<li>Existing recorded Play Mode result: PASS for tabs, Unicode name, filtered gallery, disabled placeholders, closing picker on tab switch, selection retention, female color targets through RGB/hex/HSV/brightness, swatch synchronization, repeated profile switching, male edits, independent color retention and unchanged source materials.</li>
+<li>The runtime check source also exercises scrolling using a PointerEventData event and the scrollbar. This is not a physical mouse test.</li>
+<li>On 2026-10-19, Unity verified the relocated material and renamed shader, both male/female skin and eye material shader references, a loaded eye renderer reference, and scene/prefab dependency resolution.</li>
+<li>Documentation reorganization: forty local Markdown links and Python syntax checked; browser guide regenerated with nine embedded diagrams and valid section anchors.</li>
+<li>Handoff ZIP: twelve entries, archive integrity checked and nine image links resolved.</li>
+<li>No new full Play Mode regression or standalone build was run for this documentation task. Earlier evidence is preserved separately below.</li>
+<li>No persistence across scene reloads/application restarts. No animation/rig certification, finished ten new hairstyles, finished portrait/thumbnail art, or validation on every screen size.</li>
+<li>Different future hair UVs/materials will require appropriate textures and extending material-color binding. Simply attaching a mesh is not proof that its tinting works.</li>
+<li>Historical Unity GPUResidentDrawer/InstanceCuller assertions were reported earlier; this milestone is not a verified fix for that engine issue.</li>
+</ul>
+<h2>Evidence locations</h2>
+<p>A copy of the latest available Play Mode report and today's asset repair report is stored in this folder under <code>Evidence</code>. Earlier logs and screenshots are outside the Git repository at <code>H:\ChatGPT - IT\CharacterSource\FemaleCustomization</code>. These reports describe the runs that produced them, not a new run today.</p>
+<h2>Commit preparation</h2>
+<p>Use the title and description in Commit_Message.md. Include new assets with their .meta files and the old-path deletions so Git records the moves correctly. Do not add Library, Temp, Logs or external source archives. The external hairstyle ZIP is not part of this repository. Review the generated TMP fallback change alongside the other changes. No commit or staging was performed by this documentation task.</p></html>

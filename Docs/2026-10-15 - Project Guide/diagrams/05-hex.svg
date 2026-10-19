@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="280" viewBox="0 0 1100 280"><rect width="100%" height="100%" fill="#f7f9fc"/>
+<text x="30" y="35" text-anchor="start" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#18283b">Hex entry and slider synchronization</text>
+<text x="30" y="70" text-anchor="start" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#18283b">Read left to right. The code below the diagram implements this path.</text>
+<path d="M260.0,182.5 L300.0,182.5" stroke="#677990" stroke-width="3" fill="none"/>
+<polygon points="300.0,182.5 290.0950818741206,187.28462087522354 290.0950818741206,177.71537912477646" fill="#677990"/>
+<path d="M530.0,182.5 L570.0,182.5" stroke="#677990" stroke-width="3" fill="none"/>
+<polygon points="570.0,182.5 560.0950818741205,187.28462087522354 560.0950818741205,177.71537912477646" fill="#677990"/>
+<path d="M800.0,182.5 L840.0,182.5" stroke="#677990" stroke-width="3" fill="none"/>
+<polygon points="840.0,182.5 830.0950818741205,187.28462087522354 830.0950818741205,177.71537912477646" fill="#677990"/>
+<rect x="30.0" y="130" width="230.0" height="105" rx="20" fill="#dff5eb" stroke="#7b8ba0" stroke-width="2"/>
+<text x="145.0" y="170.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#18283b">#FF8000</text>
+<text x="145.0" y="195.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Finish editing</text>
+<rect x="300.0" y="130" width="230.0" height="105" rx="20" fill="#eee8ff" stroke="#7b8ba0" stroke-width="2"/>
+<text x="415.0" y="170.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#18283b">ApplyHex()</text>
+<text x="415.0" y="195.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Validate and parse</text>
+<rect x="570.0" y="130" width="230.0" height="105" rx="20" fill="#eee8ff" stroke="#7b8ba0" stroke-width="2"/>
+<text x="685.0" y="170.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#18283b">ApplyPickedColor()</text>
+<text x="685.0" y="195.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Set sliders silently</text>
+<rect x="840.0" y="130" width="230.0" height="105" rx="20" fill="#eee8ff" stroke="#7b8ba0" stroke-width="2"/>
+<text x="955.0" y="170.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#18283b">ApplyColor()</text>
+<text x="955.0" y="195.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#18283b">Apply + refresh hex</text>
+</svg>

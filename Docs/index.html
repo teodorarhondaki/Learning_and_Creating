@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Documentation index</title><style>body{max-width:900px;margin:40px auto;padding:24px;font:17px/1.6 system-ui;color:#203047}h2{margin-top:32px}a{color:#185eac}pre{white-space:pre-wrap;background:#f0f3f7;padding:16px}</style><h1>Project documentation</h1><p>Choose a document below. Folders are grouped by original date and theme.</p><h2>2026-10-15 - Project Guide</h2><p>Project overview, mind maps, code explanations and dependency diagrams.</p><p><a href="2026-10-15%20-%20Project%20Guide/Project_Guide.html">Open browser edition</a></p><p><a href="2026-10-15%20-%20Project%20Guide/Project_Guide.md">Markdown source</a></p><h2>2026-10-16 - Character and Hairstyle Asset Brief</h2><p>Complete hairstyle presets, image specifications and instructions for your friend.</p><p><a href="2026-10-16%20-%20Character%20and%20Hairstyle%20Asset%20Brief/Character_Menu_Asset_Brief.html">Open browser edition</a></p><p><a href="2026-10-16%20-%20Character%20and%20Hairstyle%20Asset%20Brief/Character_Menu_Asset_Brief.md">Markdown source</a></p><h2>2026-10-19 - Customization Asset Repair</h2><p>Eye material move, skin shader spelling correction and validation results.</p><details><summary>Read repair report</summary><pre># Customization asset organization repair
+
+Verified in the open Unity editor on 2026-10-19.
+
+- Eye material: `Assets/Characters/Customization/Materials/CharacterEyes.mat`.
+- Skin shader: `Assets/Characters/Customization/Shaders/CustomizableSkin.shadergraph`.
+- Both original asset GUIDs and their metadata were preserved by Unity AssetDatabase.MoveAsset. Serialized scene, prefab and material references remain connected.
+- Updated the female-material preparation script to load the eye material from Materials.
+- Updated the Markdown/HTML project guide and its generator.
+- No C# methods or variables contained the misspelled skin name; runtime property names were already correct and remain compatible.
+- Validation checked shader imports, both skin/eye material pairs, loaded eye renderer assignment, and scene/prefab dependencies. A full gameplay test was not performed for this path-only change.
+
+```text
+PASS: moved assets with original GUIDs.
+Skin shader: Shader Graphs/CustomizableSkin
+CharacterSkin -&gt; Shader Graphs/CustomizableSkin
+FemaleSkin -&gt; Shader Graphs/CustomizableSkin
+CharacterEyes -&gt; Shader Graphs/CustomizableEyes
+FemaleEyes -&gt; Shader Graphs/CustomizableEyes
+Loaded renderer eye references: 1
+Dependent asset: Assets/Prefabs/FemaleCharacter.prefab
+Dependent asset: Assets/Scenes/CharacterLab.unity
+Dependent asset: Assets/Scenes/FemaleCharacterReview.unity
+```
+</pre></details><p><a href="2026-10-19%20-%20Customization%20Asset%20Repair/Customization_Asset_Repair.md">Markdown source</a></p><h2>2026-10-19 - Progress and New Chat Handoff</h2><p><a href="2026-10-19%20-%20Progress%20and%20New%20Chat%20Handoff/Work_Completed.html">Open progress report</a></p><p><a href="2026-10-19%20-%20Progress%20and%20New%20Chat%20Handoff/New_Chat_Handoff.md">New chat handoff (Markdown)</a></p><p><a href="2026-10-19%20-%20Progress%20and%20New%20Chat%20Handoff/Commit_Message.md">Commit title and description</a></p></html>
